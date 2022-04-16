@@ -30,7 +30,7 @@ Customize your terminal (Oh My Zsh) on Ubuntu
  cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
 
-## Install PowerLevel9k!
+## Install PowerLevel10k!
 
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -54,21 +54,21 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
  chsh -s /bin/zsh
 ```
 
-## Install some plugins
+# Install some plugins
 
-# ZSH Syntax Highlighting
+## ZSH Syntax Highlighting
 
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-# ZSH Autosuggestions
+## ZSH Autosuggestions
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-# Open zsh file and enable your new plugins
+## Open zsh file and enable your new plugins
 
 ```
 sudo nano ~/.zshrc
@@ -80,4 +80,7 @@ plugins=( git
  zsh-autosuggestions)
 ```
 
-## Finally restart your promp to set the new features
+
+
+
+# Finally restart your promp to set the new features
