@@ -7,7 +7,7 @@ Customize your terminal (Oh My Zsh) on Ubuntu
 ## Update the packages
 
 ```
-  sudo apt-get update.
+  sudo apt-get update
   sudo apt upgrade
 ```
 
