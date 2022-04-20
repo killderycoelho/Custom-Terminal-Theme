@@ -36,13 +36,13 @@ Customize your terminal (Oh My Zsh) on Ubuntu
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-## Set up a theme for your Terminal — Open .zshrc File using gedit editor
+## Set up a theme for your Terminal — Open .zshrc File using your editor
 
 ```
  nano ~/.zshrc
 ```
 
-## And change and put these lines :
+## Change zsh_theme with this line 
 
 ```
  ZSH_THEME="powerlevel10k/powerlevel10k"
